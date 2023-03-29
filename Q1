@@ -1,0 +1,15 @@
+#include < stdio.h >
+#include<string.h>
+
+int main() {
+   //declaring and initializing one-dimensional array in C
+   int arr[5] = {12,36,56,78,100}; 
+
+    // After declaration, we can also initialize the array as:
+    // arr[0] = 12; arr[1] =36 ; arr[2] =56;arr[3]=78;arr[4]=100 ;
+
+    for (int i = 0; i < 5; i++) {
+        // accessing elements of array
+        printf(" Value of arr[%d]: %d\n", i, arr[i]);
+    }
+}
